@@ -6,9 +6,10 @@ const header = () => {
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid py-2">
+                <a className="navbar-brand" href="#">Iphone Store</a>
                 <button className="navbar-toggler" type='button' data-bs-toggle='collapse'
-                data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent'
-                aria-expanded='false' aria-label='Toggle navigation'>
+                        data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent'
+                        aria-expanded='false' aria-label='Toggle navigation'>
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
@@ -18,16 +19,16 @@ const header = () => {
                             <Link to='/' className="nav-link" aria-current='page'>Home</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/product' className="nav-link" >Product</Link>
+                            <Link to='/products' className="nav-link">Product</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/about' className="nav-link" >About</Link>
+                            <Link to='/about' className="nav-link">About</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/contact' className="nav-link" >Contact</Link>
+                            <Link to='/contact' className="nav-link">Contact</Link>
                         </li>
                     </ul>
-                    <CartBtn />
+                    <CartBtn/>
                 </div>
             </div>
         </nav>

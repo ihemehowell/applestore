@@ -1,8 +1,8 @@
 import React from 'react'
-import iphone1 from '../../assets/14promax.jpeg'
-import iphone2 from '../../assets/16promax.jpeg'
-import iphone3 from '../../assets/iphone15.jpeg'
-import iphone4 from '../../assets/iphone13.jpeg'
+import apple from '../../assets/1.jpg'
+import phone from '../../assets/2.jpg'
+import iph from '../../assets/3.jpg'
+import one from '../../assets/4.jpg'
 import Product from  '../Product/Product'
 
 
@@ -24,16 +24,16 @@ const home = () => {
 
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={iphone1} alt="iphone" className='d-block w-100' height='500px' />
+                    <img src={apple} alt="iphone" className='d-block w-100 image-fluid' height='500px' />
                 </div>
                 <div className="carousel-item">
-                    <img src={iphone2} alt="iphone" className='d-block w-100' height='500px' />
+                    <img src={phone} alt="iphone" className='d-block w-100' height='500px' />
                 </div>
                 <div className="carousel-item">
-                    <img src={iphone3} alt="iphone" className='d-block w-100' height='500px' />
+                    <img src={iph} alt="iphone" className='d-block w-100' height='500px' />
                 </div>
                 <div className="carousel-item">
-                    <img src={iphone4} alt="iphone" className='d-block w-100' height='500px' />
+                    <img src={one} alt="iphone" className='d-block w-100' height='500px' />
                 </div>
             </div>
             <button className="carousel-control-prev" type='button' data-bs-target="#carouselExampleIndicators" data-bs-slide='prev'>
@@ -46,7 +46,7 @@ const home = () => {
                 <span className="visually-hidden">Next</span>
             </button>
         </div>
-        <Product/>
+        <Product />
     </div>
   )
 }

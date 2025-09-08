@@ -1,12 +1,12 @@
 export const additem = (product) =>{
     return{
         type: 'ADDITEM',
-        playload: product
+        payload: product
     }
 }
 export const delitem= (product) =>{
     return{
         type: 'DELITEM',
-        playload: product
+        payload: product
     }
 }
