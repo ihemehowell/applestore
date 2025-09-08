@@ -36,7 +36,7 @@ const Cart = () => {
 
     const emptyCart = () => {
         return(
-            <div className="bg-light px-5 my-5 rounded-3 py-5 w-100 vh-100 mx-auto">
+            <div className="bg-light px-lg-5 mb-5 my-5 rounded-3 py-5 w-100  mx-auto">
                 <div className="container py-4">
                     <div className="row">
                         <h3>Your cart is empty</h3>
@@ -50,7 +50,7 @@ const Cart = () => {
         return (
             <div className="container">
                 <div className="row">
-                    <Link to='/checkout' className='btn btn-outline-primary mb-5 w-25 mx-auto'>Proceed to checkout</Link>
+                    <Link to='/checkout' className='btn btn-outline-dark border-dark-subtle mb-5 w-25 mx-auto'>Proceed to checkout</Link>
                 </div>
             </div>
         )

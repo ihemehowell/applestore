@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-light pt-5 pb-5 ">
+        <footer className="bg-dark text-light py-5">
             <div className="container">
                 <div className="row">
                     {/* Brand */}
-                    <div className="col-md-3 mb-3">
-                        <h4 className="fw-bold text-primary">MyShop</h4>
+                    <div className="col-md-3 mb-5">
+                        <h4 className="fw-bold text-light">Iphone Store</h4>
                         <p className="small">
                             Premium quality smartphones and accessories at the best prices.
                         </p>
@@ -24,8 +24,8 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/shop" className="text-light text-decoration-none">
-                                    Shop
+                                <Link to="/products" className="text-light text-decoration-none">
+                                    Products
                                 </Link>
                             </li>
                             <li>
@@ -78,7 +78,7 @@ const Footer = () => {
                                     className="form-control"
                                     placeholder="Your email"
                                 />
-                                <button className="btn btn-primary" type="submit">
+                                <button className="btn btn-dark border-1 border-light-subtle" type="submit">
                                     Subscribe
                                 </button>
                             </div>
