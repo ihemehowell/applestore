@@ -11,7 +11,7 @@ const Contact = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-5 flex justify-content-center">
-                            <img src="/contact.jpg" alt="Contact Us" height='400px' width='400px'/>
+                            <img src="../src/assets/contact-us.jpg" alt="Contact Us" height='250px' width='400px'/>
                         </div>
                         <div className="col-md-6">
                             <form action="" className="mb-3">
@@ -27,6 +27,10 @@ const Contact = () => {
                                     <label htmlFor="" className="form-label">Message</label>
                                     <textarea  className="form-control" id='exampleFormControlTextarea1' placeholder='John Smith'/>
                                 </div>
+                                <div className=" d-flex justify-content-center px-5 py-3">
+                                    <button className="btn btn-outline-warning px-5 Submit w-5"> Submit</button>
+                                </div>
+
                             </form>
                         </div>
                     </div>
