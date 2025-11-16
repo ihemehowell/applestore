@@ -23,7 +23,7 @@ const Cart = () => {
                             <img src={cartItem.img} alt={cartItem.title} height='400px' width='480px' className='rounded-3'/>
                         </div>
 
-                        <div className="col-md-6 mx-5 px-5">
+                        <div className="col-md-6 mx-auto px-5">
                             <h3>{cartItem.title}</h3>
                             <p className="fw-bold">${cartItem.price}</p>
                         </div>

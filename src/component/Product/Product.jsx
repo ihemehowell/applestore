@@ -10,7 +10,7 @@ const Product = () => {
                 <div className="card-body ">
                     <h5 className="card-title">{item.title}</h5>
                     <p className="card-text">${item.price}</p>
-                    <Link to={`/products/${item.id}`} className='btn btn-outline-dark border-dark-subtle'>Buy Now</Link>
+                    <Link to={`/products/${item.id}`} className='btn btn-outline-dark border-dark-subtle'>View Details  </Link>
                 </div>
             </div>
         )

@@ -5,7 +5,7 @@ import Header from './component/Header/header'
 import Cart from './component/Cart/cart'
 import Footer from './component/Footer/footer'
 import {Route, Routes,} from "react-router-dom";
-import Product from "./component/Product/product.jsx";
+import Product from "./component/Product/Product.jsx";
 import ProductDetails from "./component/Product/ProductDetails.jsx";
 import Checkout from "./component/Checkout/Checkout.jsx";
 import Contact from "./component/Contact/Contact.jsx";

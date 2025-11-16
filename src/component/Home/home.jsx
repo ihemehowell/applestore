@@ -3,7 +3,7 @@ import apple from '../../assets/1.jpg'
 import phone from '../../assets/2.jpg'
 import iph from '../../assets/3.jpg'
 import one from '../../assets/4.jpg'
-import Product from  '../Product/Product'
+import Product from '../Product/Product.jsx'
 
 
 const home = () => {

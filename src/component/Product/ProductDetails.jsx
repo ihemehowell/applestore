@@ -26,7 +26,8 @@ const ProductDetails = () => {
         <div className="row">
         <div className="col-md-6 d-flex justify-content-center mx-auto ">
             <img src={product.img} alt={product.title} height='400px' width='400px' className='rounded-3'/>
-        </div> <div className="col-md-6">
+        </div>
+            <div className="col-md-6">
             <h1 className="display-5 fw-bold mb-3 text-dark text-center product-title"> {product.title} </h1>
             <hr/>
             <h2 className="my-4">${product.price}</h2>
