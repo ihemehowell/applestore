@@ -3,6 +3,7 @@ import apple from '../../assets/1.jpg'
 import phone from '../../assets/2.jpg'
 import iph from '../../assets/3.jpg'
 import one from '../../assets/4.jpg'
+import Product from  '../Product/product'
 
 
 const home = () => {
@@ -45,6 +46,7 @@ const home = () => {
                 <span className="visually-hidden">Next</span>
             </button>
         </div>
+        <Product />
     </div>
   )
 }
